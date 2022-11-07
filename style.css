@@ -7,7 +7,14 @@ h1{
    margin: 70px;
 }
 
-table{
-    font-size: 15px;
-    margin: 10px;
+button{
+    border-radius: 40px;
+    border-width: 1px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: black;
+}
+
+button:hover{
+    opacity: +4;
 }
