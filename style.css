@@ -2,26 +2,51 @@
     font-family: sans-serif;
 }
 
+html{
+    background: #7ab49d
+}
+
 body{
     text-align: center;
     font-size: 20px;
 }
 
 h1{
-   margin: 50px;
+   padding: 2%;
+}
+
+h3{
+    color: red;
+    font-size: 20px;
 }
 
 button{
-    width: auto;;
+    width: 100px;
     font-size: 20px;
     border-width: 1px;
+    border-radius: 10px;
     cursor: pointer;
     border-style: solid;
-    border-color: black;
+    border-style: none;
 }
 
 button:hover{
     opacity: +4;
+}
+
+button[id=button-rec]{
+    width: auto;
+}
+
+input{
+    height: 20px;
+    border-style: solid;
+    border-radius: 10px;
+    border-style: none;
+}
+
+input[id=new-password]{
+    margin-right: 63px;
 }
 
 input[id=new-password]{
@@ -29,5 +54,5 @@ input[id=new-password]{
 }
 
 input[id=repeat-new-password]{
-    margin-right: 150px;
+    margin-right: 149px;
 }
