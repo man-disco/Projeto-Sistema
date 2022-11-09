@@ -1,9 +1,19 @@
+/* Classes */
+.lightmode{
+    background-color: white;
+}
+
+.darkmode{
+    background-color: #181a1b;
+}
+
+/* Elementos Html*/
 *{
     font-family: sans-serif;
 }
 
 html{
-    background: #7ab49d
+    background-color: white
 }
 
 body{
@@ -21,6 +31,7 @@ h3{
 }
 
 button{
+    background: #d3d3d3;
     width: 100px;
     font-size: 20px;
     border-width: 1px;
@@ -34,11 +45,13 @@ button:hover{
     opacity: +4;
 }
 
+
 button[id=button-rec]{
     width: auto;
 }
 
 input{
+    background-color: #d3d3d3;
     height: 20px;
     border-style: solid;
     border-radius: 10px;
@@ -55,4 +68,7 @@ input[id=new-password]{
 
 input[id=repeat-new-password]{
     margin-right: 149px;
+}
+form{
+    display: inline-grid;
 }
