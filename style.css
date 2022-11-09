@@ -12,6 +12,12 @@
     font-family: sans-serif;
 }
 
+div[id="logout"]{
+    position: relative;
+    left: 47%;
+    margin: -4px;
+}
+
 html{
     background-color: white
 }
