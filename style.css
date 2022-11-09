@@ -1,13 +1,12 @@
-/* Classes */
-.lightmode{
-    background-color: white;
+
+html {
+    height: 100%;
 }
 
-.darkmode{
-    background-color: #181a1b;
+body {
+    min-height: 100%;
 }
 
-/* Elementos Html*/
 *{
     font-family: sans-serif;
 }
