@@ -3,8 +3,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -13,7 +13,7 @@
         <center>
             <h1>Recuperação de senha</h1>
             <h3>Atenção! Insira abaixo as informações corretas:</h3>
-            <form action="index.html" /*<-recover.php*/ method="post">
+            <form action="index.html" /*<-recover.php*/ method="post"> 
                 <div>
                     <div>
                         <label for="email">Email:</label>
@@ -23,19 +23,18 @@
                 <div>
                     <div>
                         <label for="password">Nova senha:</label>
-                        <input type="password" name="password" id="new-password" name="new-password" required>
+                        <input type="password" name="password" id="new-password" name="new-password" minlength="8" required>
                     </div>
                     <div>
                         <label for="password">Repita a nova senha:</label>
-                        <input type="password" name="password" id="repeat-new-password" name="repeat-new-password"
-                            minlength="8" required>
+                        <input type="password" name="password" id="repeat-new-password" name="repeat-new-password" minlength="8" required>
                     </div>
                 </div>
-                <section style="margin: 10px;">
+                <section style="margin: 10px">
                     <button type="submit" name="button2" id="button-rec">Recuperar senha</button>
                 </section>
                 <section>
-                    <a href="login.html">Já é usuário da empresa?</a href="recover.html"></a>
+                    <a href="login.html">Já é usuário da empresa?</a>
                 </section>
         </center>
         </form>
