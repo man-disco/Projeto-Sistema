@@ -55,6 +55,10 @@ button[id=button-rec]{
     width: auto;
 }
 
+button[id="back-button"]{
+    cursor: pointer;
+}
+
 input{
     background-color: #d3d3d3;
     height: 20px;

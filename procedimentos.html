@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+</head>
+
+<body>
+    <div class="from">
+        <form method="post" action="agendamento.php"><br>
+            <h1>Procedimento</h1><br>
+            <select id="Procedimentos">
+                <option>Escolha o Procedimento abaixo</option>
+                <option>Harmonização Facial</option>
+                <option>Toxina Botulínica</option>
+                <option>Preenchimento Facial</option>
+                <option>Bichectomia</option>
+                <option>Preenchimento Labial</option>
+                <option>Skinbooster</option>
+                <option>Peeling Químico</option>
+                <option>Microagulhamento</option>
+                <option>Drenagem Linfática</option>
+                <option>Massagem Modeladora</option>
+                <option>Tecarterapia</option>
+                <option>Estética Íntima</option>
+                <option>Plasma Rico em Plaquetas (PRP)</option>
+            </select>
+            <br>
+    </div>
+    <div>
+        <h2>Profissionais</h2>
+        <select id="Profissionais">
+            <option>Profissionais Disponiveis</option>
+            <option>Dr Rafael Araujo Fernandes</option>
+            <option>Dr Sarah Martins Silva</option>
+            <option>Dr Letícia Souza Martins</option>
+            <option>Dr Melissa Castro Goncalves</option>
+            <option>Dr Luís Santos Costa</option>
+            <option>Dr Bianca Goncalves Almeida</option>
+        </select><br> <br>
+        <h2>Horario Disponivel</h2>
+        <label for="data">Data:</label>
+        <input type="date" id="data" name="dataproc"><br>
+        <label for="hora">Horario</label>
+        <input type="time" id="hora" name="horamarc"><br>
+
+        <input type="submit" value="Proseguir"> &nbsp; &nbsp;
+        <input type="button" id="back-button" value="Voltar"
+            onclick="window.location.href='file:///home/john/Dev/Html/Projeto-Sistema/index.html'">
+        </form>
+    </div>
+</body>
+<footer>
+</footer>
+
+</html>
