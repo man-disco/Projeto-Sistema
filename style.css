@@ -9,6 +9,7 @@ body {
 
 *{
     font-family: sans-serif;
+    color: black;
 }
 
 div[id="logout"]{
@@ -61,7 +62,6 @@ button[id="back-button"]{
 
 input{
     background-color: #d3d3d3;
-    height: 20px;
     border-style: solid;
     border-radius: 10px;
     border-style: none;
