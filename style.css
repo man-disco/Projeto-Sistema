@@ -65,18 +65,21 @@ input{
     border-style: solid;
     border-radius: 10px;
     border-style: none;
+    scale: 1.2;
+    margin: 5px;
+    margin-left: 20px;
+}
+
+input[id=email2]{
+    margin-left: 20px;
 }
 
 input[id=new-password]{
-    margin-right: 63px;
-}
-
-input[id=new-password]{
-    margin-right: 63px;
+    margin-left: 20px;
 }
 
 input[id=repeat-new-password]{
-    margin-right: 149px;
+    margin-left: 20px;
 }
 form{
     display: inline-grid;
