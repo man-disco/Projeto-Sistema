@@ -1,5 +1,5 @@
 
-html {
+html{
     height: 100%;
 }
 
@@ -14,8 +14,14 @@ body {
 
 div[id="logout"]{
     position: relative;
-    left: 860%;
-    margin: -4px;
+    float: right;
+}
+table, th, td{
+    border: 1px solid black;
+    border-radius: 10px;
+    border-collapse: collapse;
+    width: auto;
+    height: 40px
 }
 
 html{
