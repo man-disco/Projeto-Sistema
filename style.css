@@ -65,9 +65,7 @@ input{
     border-style: solid;
     border-radius: 10px;
     border-style: none;
-    scale: 1.2;
     margin: 5px;
-    margin-left: 20px;
 }
 
 input[id=email2]{
