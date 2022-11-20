@@ -20,7 +20,7 @@ table, th, td{
     border: 1px solid black;
     border-radius: 10px;
     border-collapse: collapse;
-    width: auto;
+    width: 20px;
     height: 40px
 }
 
@@ -87,4 +87,14 @@ input[id=repeat-new-password]{
 }
 form{
     display: inline-grid;
+}
+
+a{  
+    width: 130px;
+    height: 40px;
+    text-decoration: none;
+    border: 1px none;
+    border-radius: 10px;
+    background-color: #d3d3d3;
+    
 }
